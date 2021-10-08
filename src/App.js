@@ -63,9 +63,9 @@ function App() {
       </div>
       <div className='w-3/5 mx-auto'>
         <div className='w-full flex gap-2 border-b-2 border-blue-500'>
-          <button className={`py-3 bg-gray-300 rounded-t-xl font-bold px-5` + ` ${atsonh ? 'bg-blue-500 text-white' : 'text-gray-600'}`} onClick={openA}>Бүгд</button>
-          <button className={`py-3 bg-gray-300 rounded-t-xl font-bold px-5` + ` ${btsonh ? 'bg-blue-500 text-white' : 'text-gray-600'}`} onClick={openB}>Хийсэн</button>
-          <button className={`py-3 bg-gray-300 rounded-t-xl font-bold px-5` + ` ${ctsonh ? 'bg-blue-500 text-white' : 'text-gray-600'}`} onClick={openC}>Хийгээгүй</button>
+          <button className={`py-3 bg-gray-300 rounded-t-xl font-bold px-5 ${atsonh ? 'bg-blue-500 text-white' : 'text-gray-600'}`} onClick={openA}>Бүгд</button>
+          <button className={`py-3 bg-gray-300 rounded-t-xl font-bold px-5 ${btsonh ? 'bg-blue-500 text-white' : 'text-gray-600'}`} onClick={openB}>Хийсэн</button>
+          <button className={`py-3 bg-gray-300 rounded-t-xl font-bold px-5 ${ctsonh ? 'bg-blue-500 text-white' : 'text-gray-600'}`} onClick={openC}>Хийгээгүй</button>
         </div>
 
         {
